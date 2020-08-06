@@ -1,0 +1,8 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+import sys
+
+inp = input()
+if(len(inp)>=100):
+    exit("Failed")
+exp = inp[6:-1]
+print(eval(exp))
